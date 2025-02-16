@@ -1,0 +1,34 @@
+type Query {
+  fornecedoresPorConsumo(input: ConsumoInput!): [Fornecedor!]!
+}
+
+input ConsumoInput {
+  consumoMensal: Float!
+  demandaContratada: Float
+  tensaoFornecimento: TensaoFornecimento!
+  classeConsumidor: ClasseConsumidor!
+  modalidadeTarifaria: ModalidadeTarifaria!
+  fatorCarga: Float
+  horarioPonta: Boolean
+  custoPonta: Float
+  custoForaPonta: Float
+}
+
+enum TensaoFornecimento {
+  BAIXA
+  MEDIA
+  ALTA
+}
+
+enum ClasseConsumidor {
+  RESIDENCIAL
+  COMERCIAL
+  INDUSTRIAL
+}
+
+enum ModalidadeTarifaria {
+  CONVENCIONAL
+  BRANCA
+  VERDE
+  AZUL
+} 

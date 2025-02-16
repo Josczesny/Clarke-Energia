@@ -32,4 +32,32 @@ node_modules
 **/.DS_Store
 
 # Docker
-**/docker-compose.override.yml 
+**/docker-compose.override.yml
+
+# Build e Cache
+**/build/
+**/.cache/
+**/dist/
+**/.next/
+
+# Logs
+**/logs
+**/*.log
+
+# Coverage
+**/coverage/
+**/.nyc_output/
+
+# Temporários
+**/.tmp/
+**/temp/
+
+# VS Code
+**/.vscode/*
+!**/.vscode/extensions.json
+!**/.vscode/launch.json
+!**/.vscode/settings.json
+
+# Cypress
+**/cypress/videos/
+**/cypress/screenshots/ 

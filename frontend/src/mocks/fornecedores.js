@@ -1,5 +1,4 @@
 export const fornecedores = [
-  // Fornecedores para Pequenos Consumidores (100-5000 kWh)
   {
     id: '1',
     nome: 'Solar Brasil',
@@ -28,8 +27,6 @@ export const fornecedores = [
     certificacoes: ['ISO 9001'],
     tags: ['Economia', 'Comercial']
   },
-
-  // Fornecedores para Médios Consumidores (5000-20000 kWh)
   {
     id: '3',
     nome: 'Smart Energy',
@@ -58,8 +55,6 @@ export const fornecedores = [
     certificacoes: ['ISO 14001', 'Energia Limpa'],
     tags: ['Eólica', 'Sustentável']
   },
-
-  // Fornecedores para Grandes Consumidores (20000-50000 kWh)
   {
     id: '5',
     nome: 'Eco Power',
@@ -88,8 +83,6 @@ export const fornecedores = [
     certificacoes: ['ISO 9001', 'ISO 14001'],
     tags: ['Sustentável', 'Industrial']
   },
-
-  // Fornecedores para Consumo Industrial (>50000 kWh)
   {
     id: '7',
     nome: 'Industrial Power',
@@ -117,8 +110,6 @@ export const fornecedores = [
     certificacoes: ['ISO 9001', 'ISO 50001'],
     tags: ['Industrial', 'Alta Demanda']
   },
-
-  // Mais Fornecedores para Pequenos Consumidores (100-5000 kWh)
   {
     id: '9',
     nome: 'Mini Power',
@@ -147,8 +138,6 @@ export const fornecedores = [
     certificacoes: ['ISO 14001', 'Selo Verde'],
     tags: ['Sustentável', 'Microempresa']
   },
-
-  // Mais Fornecedores para Médios Consumidores (5000-20000 kWh)
   {
     id: '11',
     nome: 'Hidro Sul',
@@ -177,8 +166,6 @@ export const fornecedores = [
     certificacoes: ['ISO 14001'],
     tags: ['Biomassa', 'Médio Porte']
   },
-
-  // Mais Fornecedores para Grandes Consumidores (20000-50000 kWh)
   {
     id: '13',
     nome: 'Power Tech',
@@ -207,8 +194,6 @@ export const fornecedores = [
     certificacoes: ['ISO 14001', 'Selo Solar'],
     tags: ['Solar', 'Grande Porte']
   },
-
-  // Mais Fornecedores para Consumo Industrial (>50000 kWh)
   {
     id: '15',
     nome: 'Heavy Power',
@@ -237,8 +222,6 @@ export const fornecedores = [
     certificacoes: ['ISO 9001', 'ISO 50001'],
     tags: ['Industrial', 'Personalizado']
   },
-
-  // Mais Fornecedores para Pequenos Consumidores (100-5000 kWh)
   {
     id: '17',
     nome: 'Eco Small',
